@@ -1,0 +1,80 @@
+
+
+a {
+    font-size: 30px;
+}
+
+h1 {
+    color: #FF8C00;
+}
+
+h2 {
+    color: #FFD700;
+}
+
+h3 {
+    color: #FFA500;
+}
+
+p {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+ul li {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+
+
+#myHeader {
+    height: 80px;
+    background-color: #333;
+    color: #FFA500;
+    font-size: 40;
+    align-items: center;
+    padding: 10px 110px;
+}
+
+#pTitle {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#pContent {
+    padding: 40px;
+    background-color: #000000;
+    font-size: 25px;
+}
+
+#profileImg {
+    display: block;
+    margin: 40px auto 0;
+    padding: 10px;
+    width: 30%;
+}
+
+a.button {
+    padding: 8px 15px;
+    color: #000;
+    
+    background-color: rgb(229, 212, 0);
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+#wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #000000;
+    color: #FFA500;
+}
+
+
+#projImg {
+    width: 60%; 
+    height: auto;
+    border-radius: 1px;
+}
