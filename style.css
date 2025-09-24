@@ -1,11 +1,11 @@
 
 
 a {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 h1 {
-    color: #FF8C00;
+    color: #FFD700;
 }
 
 h2 {
@@ -32,9 +32,11 @@ ul li {
     height: 80px;
     background-color: #333;
     color: #FFA500;
-    font-size: 40;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 10px 110px;
+    padding: 10px;
 }
 
 #pTitle {
@@ -52,13 +54,14 @@ ul li {
     display: block;
     margin: 40px auto 0;
     padding: 10px;
-    width: 30%;
+    width: 10%;
+    float: right
+        
 }
 
 a.button {
-    padding: 8px 15px;
+    padding: 15px 15px;
     color: #000;
-    
     background-color: rgb(229, 212, 0);
     text-decoration: none;
     margin-left: 40px;
@@ -66,9 +69,9 @@ a.button {
 }
 
 #wrapper {
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #000000;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #242424;
     color: #FFA500;
 }
 
@@ -89,4 +92,23 @@ a.button {
     width: 40%; 
     height: auto;
     border-radius: 1px;
+    
+}
+
+
+.hobbies-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hobby-card {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    flex: 1 1 45%; 
+    max-width: 45%; 
 }
